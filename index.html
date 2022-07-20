@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food App</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+    <!-- icons:bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <!-- main web container -->
+    <section class="main-container container-fluid m-0 p-0">
+        <!-- navigation and brands -->
+        <section class="container nav-con">
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container-fluid wrapper-nav">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- <div class="nav-bar-brand-con bg-success"> -->
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="images/logo.png" alt="logo" class="logo-img">
+                    </a>
+                    <!-- </div> -->
+
+                    <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/pages/Categories.html">Categories</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/about.html">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/contact.html">Contact Us</a>
+                            </li>
+
+                            <!-- buttons: login and register -->
+                            <div class="buttons-con d-flex gap-3">
+
+                                <a href="./pages/login.html">
+                                    <button type="button" class="btn btn-danger nav-item-btns">Login</button>
+                                </a>
+
+                                <a href="./pages/register.html">
+                                    <button type="button" class="btn btn-outline-danger nav-item-btns">Register</button>
+                                </a>
+
+                            </div>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- search bar container/section -->
+        <section class="search-con container-fluid">
+            <img src="images/s3.png" alt="paster" class="img-search">
+
+            <div class="search-input-wrapper">
+                <form class="d-flex" role="search" id="form-search">
+
+                    <input class="form-control me-2 search-input" type="search"
+                        placeholder="Hy, What would you like to eat today?" aria-label="Search">
+
+                    <button class="btn btn-danger btn-search" type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- categories section -->
+        <section class="categories-con container">
+            <h2 class="title">Categories</h2>
+            <div class="row rows">
+                <div class="col">
+                    <div class="card" style="width: 12rem;">
+
+                        <img src="https://cdn.pixabay.com/photo/2021/06/04/11/55/burger-6309618_960_720.jpg"
+                            class="card-img-top" alt="...">
+
+                        <div class="title-con">
+                            <span class="card-title">Burgers</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 12rem;">
+
+                        <img src="https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                            class="card-img-top" alt="...">
+
+                        <div class="title-con">
+                            <span class="card-title">Beef Meal</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 12rem;">
+
+                        <img src="https://images.pexels.com/photos/236887/pexels-photo-236887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="card-img-top" alt="...">
+
+                        <div class="title-con">
+                            <span class="card-title">Pork Meal</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 12rem;">
+
+                        <img src="https://images.pexels.com/photos/1633495/pexels-photo-1633495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="card-img-top" alt="...">
+
+                        <div class="title-con">
+                            <span class="card-title">Hot Dogs</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 12rem;">
+
+                        <img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="card-img-top" alt="...">
+
+                        <div class="title-con">
+                            <span class="card-title">Chicken</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- food menus to take order  -->
+        <section class="food-menu-con container">
+            <h2 class="title">Explore Our Food Menus</h2>
+            <div class="row rows">
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4 d-flex">
+                                <img src="https://images.unsplash.com/photo-1551782450-17144efb9c50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Mashy Burger & Fries</h4>
+                                <span class="text-muted">R130.90</span>
+                                <a href="./pages/createOrder.html">
+                                    <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4 d-flex">
+                                <img src="https://images.unsplash.com/photo-1598679253544-2c97992403ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Monaco Fries</h4>
+                                <span class="text-muted">R90.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4 d-flex">
+                                <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Fab Wings</h4>
+                                <span class="text-muted">R110.98</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4">
+                                <img src="https://images.unsplash.com/photo-1592894869086-f828b161e90a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=946&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Beef Slims</h4>
+                                <span class="text-muted">R155.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4">
+                                <img src="https://images.unsplash.com/photo-1638368593249-7cadb261e8b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Hotdog-fogs</h4>
+                                <span class="text-muted">R55.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4">
+                                <img src="https://images.unsplash.com/photo-1614398751058-eb2e0bf63e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1014&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Wings Platter</h4>
+                                <span class="text-muted">R355.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4">
+                                <img src="https://images.unsplash.com/photo-1595507238835-bff863eb6edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Pork Ribs</h4>
+                                <span class="text-muted">R185.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <div class="card card-food" style="width: 18rem;">
+                        <div class="row p-2">
+                            <div class="col-4">
+                                <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                    alt="..." class="food-img">
+                            </div>
+                            <div class="col">
+                                <h4 class="food-title pb-1">Savannah Slash</h4>
+                                <span class="text-muted">R90.00</span>
+                                <button type="button" class="btn btn-danger btn-order-food mt-1">Order</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">&copy; 2022 FoodIncs, Inc.</span>
+                    <span class="mb-3 mb-md-0 text-muted ms-3">All rights reserved.</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+
+        <div class="b-example-divider"></div>
+    </footer>
+
+
+    <!-- bootstrap cdn for javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
